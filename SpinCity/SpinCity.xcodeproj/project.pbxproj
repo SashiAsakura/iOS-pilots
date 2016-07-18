@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		63089B991D3D61D100560738 /* AlbumDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63089B981D3D61D100560738 /* AlbumDataController.m */; };
+		63089B9C1D3D8DD200560738 /* AlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63089B9B1D3D8DD200560738 /* AlbumTableViewCell.m */; };
 		637A641C1D36FCE500DE8E7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A641B1D36FCE500DE8E7C /* main.m */; };
 		637A641F1D36FCE500DE8E7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A641E1D36FCE500DE8E7C /* AppDelegate.m */; };
 		637A64221D36FCE500DE8E7C /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A64211D36FCE500DE8E7C /* MasterViewController.m */; };
@@ -40,6 +41,8 @@
 /* Begin PBXFileReference section */
 		63089B971D3D61D100560738 /* AlbumDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumDataController.h; sourceTree = "<group>"; };
 		63089B981D3D61D100560738 /* AlbumDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumDataController.m; sourceTree = "<group>"; };
+		63089B9A1D3D8DD200560738 /* AlbumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlbumTableViewCell.h; path = ../AlbumTableViewCell.h; sourceTree = "<group>"; };
+		63089B9B1D3D8DD200560738 /* AlbumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlbumTableViewCell.m; path = ../AlbumTableViewCell.m; sourceTree = "<group>"; };
 		637A64171D36FCE500DE8E7C /* SpinCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		637A641B1D36FCE500DE8E7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		637A641D1D36FCE500DE8E7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 		637A64191D36FCE500DE8E7C /* SpinCity */ = {
 			isa = PBXGroup;
 			children = (
+				63089B9A1D3D8DD200560738 /* AlbumTableViewCell.h */,
+				63089B9B1D3D8DD200560738 /* AlbumTableViewCell.m */,
 				637A641D1D36FCE500DE8E7C /* AppDelegate.h */,
 				637A641E1D36FCE500DE8E7C /* AppDelegate.m */,
 				637A64201D36FCE500DE8E7C /* MasterViewController.h */,
@@ -289,6 +294,7 @@
 				63089B991D3D61D100560738 /* AlbumDataController.m in Sources */,
 				637A64221D36FCE500DE8E7C /* MasterViewController.m in Sources */,
 				637A641C1D36FCE500DE8E7C /* main.m in Sources */,
+				63089B9C1D3D8DD200560738 /* AlbumTableViewCell.m in Sources */,
 				637A64521D3700C400DE8E7C /* Album.m in Sources */,
 				637A64251D36FCE500DE8E7C /* DetailViewController.m in Sources */,
 			);

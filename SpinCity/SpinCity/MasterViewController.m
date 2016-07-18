@@ -10,6 +10,7 @@
 #import "DetailViewController.h"
 #import "Album.h"
 #import "AlbumDataController.h"
+#import "AlbumTableViewCell.h"
 
 @interface MasterViewController ()
 @property (nonatomic, strong) AlbumDataController *albumDataController; // create a persistent pointer to the object
@@ -41,11 +42,14 @@
 #pragma mark - Segues
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // make sure it's the segue to the list detail view
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         Album *album = [self.albumDataController albumAtIndex:indexPath.row];
         
+        // grab the next view from the seque
         DetailViewController *controller = (DetailViewController *)[[segue destinationViewController] topViewController];
+        // the new view exposing setDetailItem()
         [controller setDetailItem:album];
         controller.navigationItem.leftBarButtonItem = self.splitViewController.displayModeButtonItem;
         controller.navigationItem.leftItemsSupplementBackButton = YES;
@@ -64,10 +68,12 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     // set album cell identifier to tie the cell to the code
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"AlbumCell" forIndexPath:indexPath];
+    AlbumTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"AlbumCell" forIndexPath:indexPath];
 
-    Album *album = [self.albumDataController albumAtIndex:indexPath.row];
-    cell.textLabel.text = album.title;
+    Album *album = [self.albumDataController albumAtIndex: indexPath.row];
+    cell.albumTitleLabel.text = album.title;
+    cell.albumSummaryLabel.text = album.summary;
+    cell.priceLabel.text = [NSString stringWithFormat:@"$%01.2f", album.price];
     return cell;
 }
 
