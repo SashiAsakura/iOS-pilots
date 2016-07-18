@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63089B991D3D61D100560738 /* AlbumDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63089B981D3D61D100560738 /* AlbumDataController.m */; };
+		637A641C1D36FCE500DE8E7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A641B1D36FCE500DE8E7C /* main.m */; };
+		637A641F1D36FCE500DE8E7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A641E1D36FCE500DE8E7C /* AppDelegate.m */; };
+		637A64221D36FCE500DE8E7C /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A64211D36FCE500DE8E7C /* MasterViewController.m */; };
+		637A64251D36FCE500DE8E7C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A64241D36FCE500DE8E7C /* DetailViewController.m */; };
+		637A64281D36FCE500DE8E7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637A64261D36FCE500DE8E7C /* Main.storyboard */; };
+		637A642A1D36FCE500DE8E7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637A64291D36FCE500DE8E7C /* Assets.xcassets */; };
+		637A642D1D36FCE500DE8E7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637A642B1D36FCE500DE8E7C /* LaunchScreen.storyboard */; };
+		637A64381D36FCE500DE8E7C /* SpinCityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A64371D36FCE500DE8E7C /* SpinCityTests.m */; };
+		637A64431D36FCE500DE8E7C /* SpinCityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A64421D36FCE500DE8E7C /* SpinCityUITests.m */; };
+		637A64521D3700C400DE8E7C /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A64511D3700C400DE8E7C /* Album.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		637A64341D36FCE500DE8E7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 637A640F1D36FCE500DE8E7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 637A64161D36FCE500DE8E7C;
+			remoteInfo = SpinCity;
+		};
+		637A643F1D36FCE500DE8E7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 637A640F1D36FCE500DE8E7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 637A64161D36FCE500DE8E7C;
+			remoteInfo = SpinCity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63089B971D3D61D100560738 /* AlbumDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumDataController.h; sourceTree = "<group>"; };
+		63089B981D3D61D100560738 /* AlbumDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumDataController.m; sourceTree = "<group>"; };
+		637A64171D36FCE500DE8E7C /* SpinCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		637A641B1D36FCE500DE8E7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		637A641D1D36FCE500DE8E7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		637A641E1D36FCE500DE8E7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		637A64201D36FCE500DE8E7C /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		637A64211D36FCE500DE8E7C /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		637A64231D36FCE500DE8E7C /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		637A64241D36FCE500DE8E7C /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		637A64271D36FCE500DE8E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		637A64291D36FCE500DE8E7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		637A642C1D36FCE500DE8E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		637A642E1D36FCE500DE8E7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637A64331D36FCE500DE8E7C /* SpinCityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpinCityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		637A64371D36FCE500DE8E7C /* SpinCityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpinCityTests.m; sourceTree = "<group>"; };
+		637A64391D36FCE500DE8E7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637A643E1D36FCE500DE8E7C /* SpinCityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpinCityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		637A64421D36FCE500DE8E7C /* SpinCityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpinCityUITests.m; sourceTree = "<group>"; };
+		637A64441D36FCE500DE8E7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637A64501D3700C400DE8E7C /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		637A64511D3700C400DE8E7C /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		637A64141D36FCE500DE8E7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A64301D36FCE500DE8E7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A643B1D36FCE500DE8E7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		637A640E1D36FCE500DE8E7C = {
+			isa = PBXGroup;
+			children = (
+				637A64191D36FCE500DE8E7C /* SpinCity */,
+				637A64361D36FCE500DE8E7C /* SpinCityTests */,
+				637A64411D36FCE500DE8E7C /* SpinCityUITests */,
+				637A64181D36FCE500DE8E7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		637A64181D36FCE500DE8E7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				637A64171D36FCE500DE8E7C /* SpinCity.app */,
+				637A64331D36FCE500DE8E7C /* SpinCityTests.xctest */,
+				637A643E1D36FCE500DE8E7C /* SpinCityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		637A64191D36FCE500DE8E7C /* SpinCity */ = {
+			isa = PBXGroup;
+			children = (
+				637A641D1D36FCE500DE8E7C /* AppDelegate.h */,
+				637A641E1D36FCE500DE8E7C /* AppDelegate.m */,
+				637A64201D36FCE500DE8E7C /* MasterViewController.h */,
+				637A64211D36FCE500DE8E7C /* MasterViewController.m */,
+				637A64231D36FCE500DE8E7C /* DetailViewController.h */,
+				637A64241D36FCE500DE8E7C /* DetailViewController.m */,
+				637A64261D36FCE500DE8E7C /* Main.storyboard */,
+				637A64291D36FCE500DE8E7C /* Assets.xcassets */,
+				637A642B1D36FCE500DE8E7C /* LaunchScreen.storyboard */,
+				637A642E1D36FCE500DE8E7C /* Info.plist */,
+				637A641A1D36FCE500DE8E7C /* Supporting Files */,
+				637A64501D3700C400DE8E7C /* Album.h */,
+				637A64511D3700C400DE8E7C /* Album.m */,
+				63089B971D3D61D100560738 /* AlbumDataController.h */,
+				63089B981D3D61D100560738 /* AlbumDataController.m */,
+			);
+			path = SpinCity;
+			sourceTree = "<group>";
+		};
+		637A641A1D36FCE500DE8E7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				637A641B1D36FCE500DE8E7C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		637A64361D36FCE500DE8E7C /* SpinCityTests */ = {
+			isa = PBXGroup;
+			children = (
+				637A64371D36FCE500DE8E7C /* SpinCityTests.m */,
+				637A64391D36FCE500DE8E7C /* Info.plist */,
+			);
+			path = SpinCityTests;
+			sourceTree = "<group>";
+		};
+		637A64411D36FCE500DE8E7C /* SpinCityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				637A64421D36FCE500DE8E7C /* SpinCityUITests.m */,
+				637A64441D36FCE500DE8E7C /* Info.plist */,
+			);
+			path = SpinCityUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		637A64161D36FCE500DE8E7C /* SpinCity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637A64471D36FCE500DE8E7C /* Build configuration list for PBXNativeTarget "SpinCity" */;
+			buildPhases = (
+				637A64131D36FCE500DE8E7C /* Sources */,
+				637A64141D36FCE500DE8E7C /* Frameworks */,
+				637A64151D36FCE500DE8E7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpinCity;
+			productName = SpinCity;
+			productReference = 637A64171D36FCE500DE8E7C /* SpinCity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		637A64321D36FCE500DE8E7C /* SpinCityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637A644A1D36FCE500DE8E7C /* Build configuration list for PBXNativeTarget "SpinCityTests" */;
+			buildPhases = (
+				637A642F1D36FCE500DE8E7C /* Sources */,
+				637A64301D36FCE500DE8E7C /* Frameworks */,
+				637A64311D36FCE500DE8E7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				637A64351D36FCE500DE8E7C /* PBXTargetDependency */,
+			);
+			name = SpinCityTests;
+			productName = SpinCityTests;
+			productReference = 637A64331D36FCE500DE8E7C /* SpinCityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		637A643D1D36FCE500DE8E7C /* SpinCityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637A644D1D36FCE500DE8E7C /* Build configuration list for PBXNativeTarget "SpinCityUITests" */;
+			buildPhases = (
+				637A643A1D36FCE500DE8E7C /* Sources */,
+				637A643B1D36FCE500DE8E7C /* Frameworks */,
+				637A643C1D36FCE500DE8E7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				637A64401D36FCE500DE8E7C /* PBXTargetDependency */,
+			);
+			name = SpinCityUITests;
+			productName = SpinCityUITests;
+			productReference = 637A643E1D36FCE500DE8E7C /* SpinCityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		637A640F1D36FCE500DE8E7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Hisashi;
+				TargetAttributes = {
+					637A64161D36FCE500DE8E7C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					637A64321D36FCE500DE8E7C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 637A64161D36FCE500DE8E7C;
+					};
+					637A643D1D36FCE500DE8E7C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 637A64161D36FCE500DE8E7C;
+					};
+				};
+			};
+			buildConfigurationList = 637A64121D36FCE500DE8E7C /* Build configuration list for PBXProject "SpinCity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 637A640E1D36FCE500DE8E7C;
+			productRefGroup = 637A64181D36FCE500DE8E7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				637A64161D36FCE500DE8E7C /* SpinCity */,
+				637A64321D36FCE500DE8E7C /* SpinCityTests */,
+				637A643D1D36FCE500DE8E7C /* SpinCityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		637A64151D36FCE500DE8E7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637A642D1D36FCE500DE8E7C /* LaunchScreen.storyboard in Resources */,
+				637A642A1D36FCE500DE8E7C /* Assets.xcassets in Resources */,
+				637A64281D36FCE500DE8E7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A64311D36FCE500DE8E7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A643C1D36FCE500DE8E7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		637A64131D36FCE500DE8E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637A641F1D36FCE500DE8E7C /* AppDelegate.m in Sources */,
+				63089B991D3D61D100560738 /* AlbumDataController.m in Sources */,
+				637A64221D36FCE500DE8E7C /* MasterViewController.m in Sources */,
+				637A641C1D36FCE500DE8E7C /* main.m in Sources */,
+				637A64521D3700C400DE8E7C /* Album.m in Sources */,
+				637A64251D36FCE500DE8E7C /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A642F1D36FCE500DE8E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637A64381D36FCE500DE8E7C /* SpinCityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A643A1D36FCE500DE8E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637A64431D36FCE500DE8E7C /* SpinCityUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		637A64351D36FCE500DE8E7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 637A64161D36FCE500DE8E7C /* SpinCity */;
+			targetProxy = 637A64341D36FCE500DE8E7C /* PBXContainerItemProxy */;
+		};
+		637A64401D36FCE500DE8E7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 637A64161D36FCE500DE8E7C /* SpinCity */;
+			targetProxy = 637A643F1D36FCE500DE8E7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		637A64261D36FCE500DE8E7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				637A64271D36FCE500DE8E7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		637A642B1D36FCE500DE8E7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				637A642C1D36FCE500DE8E7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		637A64451D36FCE500DE8E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		637A64461D36FCE500DE8E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		637A64481D36FCE500DE8E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpinCity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = headFirst.SpinCity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		637A64491D36FCE500DE8E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpinCity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = headFirst.SpinCity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		637A644B1D36FCE500DE8E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpinCityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = headFirst.SpinCityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpinCity.app/SpinCity";
+			};
+			name = Debug;
+		};
+		637A644C1D36FCE500DE8E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpinCityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = headFirst.SpinCityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpinCity.app/SpinCity";
+			};
+			name = Release;
+		};
+		637A644E1D36FCE500DE8E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpinCityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = headFirst.SpinCityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpinCity;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		637A644F1D36FCE500DE8E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpinCityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = headFirst.SpinCityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpinCity;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		637A64121D36FCE500DE8E7C /* Build configuration list for PBXProject "SpinCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637A64451D36FCE500DE8E7C /* Debug */,
+				637A64461D36FCE500DE8E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637A64471D36FCE500DE8E7C /* Build configuration list for PBXNativeTarget "SpinCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637A64481D36FCE500DE8E7C /* Debug */,
+				637A64491D36FCE500DE8E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637A644A1D36FCE500DE8E7C /* Build configuration list for PBXNativeTarget "SpinCityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637A644B1D36FCE500DE8E7C /* Debug */,
+				637A644C1D36FCE500DE8E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637A644D1D36FCE500DE8E7C /* Build configuration list for PBXNativeTarget "SpinCityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637A644E1D36FCE500DE8E7C /* Debug */,
+				637A644F1D36FCE500DE8E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 637A640F1D36FCE500DE8E7C /* Project object */;
+}
