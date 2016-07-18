@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SpinCity/AlbumDataController.m"
-            timestampString = "490563737.725729"
+            timestampString = "490564522.170497"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "-addAlbumWithTitle:artist:summary:price:locationInStore:"
             landmarkType = "5">
          </BreakpointContent>

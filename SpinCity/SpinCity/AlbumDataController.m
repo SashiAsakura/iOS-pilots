@@ -9,12 +9,10 @@
 #import "Album.h"
 #import "AlbumDataController.h"
 
-@interface AlbumDataController ()
-
 // by declaring methods and variables within property block in .m, we can
-// make them private
+// make them private. This is an mitigation to "don't use private APIs"
+@interface AlbumDataController ()
  @property (nonatomic, readonly) NSMutableArray *albumList;
-
  - (void) initializeDefaultAlbums;
 @end
 
