@@ -43,12 +43,12 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // make sure it's the segue to the list detail view
-    if ([[segue identifier] isEqualToString:@"showDetail"]) {
+    if ([[segue identifier] isEqualToString:@"ShowAlbumDetails"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         Album *album = [self.albumDataController albumAtIndex:indexPath.row];
         
         // grab the next view from the seque
-        DetailViewController *controller = (DetailViewController *)[[segue destinationViewController] topViewController];
+        DetailViewController *controller = (DetailViewController *)segue. destinationViewController;
         // the new view exposing setDetailItem()
         [controller setDetailItem:album];
         controller.navigationItem.leftBarButtonItem = self.splitViewController.displayModeButtonItem;
