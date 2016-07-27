@@ -31,9 +31,15 @@
 }
 
 - (void)initializeDefaultAlbums {
-    [self addAlbumWithTitle:@"Infected Splinter" artist:@"Boppin' Beavers" summary:@"Awesome album with a hint of Oak." price:9.99f locationInStore:@"Section F"];
-    [self addAlbumWithTitle:@"Hairy Eyeball" artist:@"Cyclops" summary:@"Summary text" price:8.99f locationInStore:@"Discount Rack"];
-    [self addAlbumWithTitle:@"Acid fog" artist:@"Josh and Chuk" summary:@"You should know this stuff" price:11.99f locationInStore:@"Section 9 3/4"];
+//    [self addAlbumWithTitle:@"Infected Splinter" artist:@"Boppin' Beavers" summary:@"Awesome album with a hint of Oak." price:9.99f locationInStore:@"Section F"];
+//    [self addAlbumWithTitle:@"Hairy Eyeball" artist:@"Cyclops" summary:@"Summary text" price:8.99f locationInStore:@"Discount Rack"];
+//    [self addAlbumWithTitle:@"Acid fog" artist:@"Josh and Chuk" summary:@"You should know this stuff" price:11.99f locationInStore:@"Section 9 3/4"];
+    
+    NSString *pathToAlbumPlist = [[NSBundle mainBundle] pathForResource:@"AlbumArray" ofType:@"plist"];
+    NSArray *defaultAlbumPlist = [NSArray arrayWithContentsOfFile:pathToAlbumPlist];
+    for (NSDictionary *albumInfo in defaultAlbumPlist) {
+        [self addAlbumWithTitle:albumInfo[@"title"] artist:albumInfo[@"artist"] summary:albumInfo[@"summary"] price:[albumInfo[@"price"] floatValue] locationInStore:albumInfo[@"locationInStore"]];
+    }
 }
 
 - (void)addAlbumWithTitle:(NSString *)title artist:(NSString *)artist summary:(NSString *)summary price:(float)price locationInStore:(NSString *)locationInStore {

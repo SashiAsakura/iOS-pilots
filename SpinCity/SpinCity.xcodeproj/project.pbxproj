@@ -19,6 +19,7 @@
 		637A64381D36FCE500DE8E7C /* SpinCityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A64371D36FCE500DE8E7C /* SpinCityTests.m */; };
 		637A64431D36FCE500DE8E7C /* SpinCityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A64421D36FCE500DE8E7C /* SpinCityUITests.m */; };
 		637A64521D3700C400DE8E7C /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A64511D3700C400DE8E7C /* Album.m */; };
+		63AF051B1D49386E00B08A0E /* AlbumArray.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63AF051A1D49386E00B08A0E /* AlbumArray.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		637A64441D36FCE500DE8E7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		637A64501D3700C400DE8E7C /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
 		637A64511D3700C400DE8E7C /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		63AF051A1D49386E00B08A0E /* AlbumArray.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AlbumArray.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				637A641B1D36FCE500DE8E7C /* main.m */,
+				63AF051A1D49386E00B08A0E /* AlbumArray.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			files = (
 				637A642D1D36FCE500DE8E7C /* LaunchScreen.storyboard in Resources */,
 				637A642A1D36FCE500DE8E7C /* Assets.xcassets in Resources */,
+				63AF051B1D49386E00B08A0E /* AlbumArray.plist in Resources */,
 				637A64281D36FCE500DE8E7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
